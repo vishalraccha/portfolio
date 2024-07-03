@@ -6,3 +6,7 @@
   font-family: Aileron;
   src: url(./fonts/aileron.black.otf);
 }
+@font-face {
+  font-family: themysion;
+  src: url(./fonts/themysion.regular.ttf);
+}
