@@ -10,3 +10,7 @@
   font-family: themysion;
   src: url(./fonts/themysion.regular.ttf);
 }
+@font-face {
+  font-family: HolidayFree;
+  src: url(./fonts/HolidayFree.otf);
+}

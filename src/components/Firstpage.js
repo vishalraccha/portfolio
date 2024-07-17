@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Firstpage() {
+function Firstpage(props) {
   return (
     <div className="firstpagemain flex justify-center">
-      <div className="w-[1150px] h-[600px] bg-[#2f2e2e] rounded-3xl flex overflow-hidden ">
+      <div className={`w-[1150px] h-[600px] rounded-3xl flex overflow-hidden ${props.background}`} >
         <div className="leftmyself w-2/3">
           <div className="mytext h-96 flex flex-col justify-center items-center">
             <h1 className="text-7xl font-[themysion] text-white">
@@ -19,7 +19,10 @@ function Firstpage() {
             </h3>
           </div>
           <div className="socialmedia w-2/5 flex absolute bottom-[-400px] ml-10 gap-6 justify-center">
-            <a className="text-4xl text-white relative" href="">
+            <a
+              className="text-4xl text-white relative"
+              href="https://www.instagram.com/its_vishal_2407/"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 version="1.1"
@@ -121,7 +124,10 @@ function Firstpage() {
               </svg>
               <ion-icon name="logo-instagram"></ion-icon>
             </a>
-            <a className="text-4xl text-white relative" href="">
+            <a
+              className="text-4xl text-white relative"
+              href="https://www.linkedin.com/in/vishal-raccha-92b74b284/"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 version="1.1"
@@ -223,7 +229,10 @@ function Firstpage() {
               </svg>
               <ion-icon name="logo-linkedin"></ion-icon>
             </a>
-            <a className="text-4xl text-white relative" href="">
+            <a
+              className="text-4xl text-white relative"
+              href="https://github.com/vishalraccha"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 version="1.1"
@@ -325,7 +334,10 @@ function Firstpage() {
               </svg>
               <ion-icon name="logo-github"></ion-icon>
             </a>
-            <a className="text-4xl text-white relative" href="">
+            <a
+              className="text-4xl text-white relative"
+              href="https://twitter.com/itsvish2407"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/sv#004AAD"
                 version="1.1"
