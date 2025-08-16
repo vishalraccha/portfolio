@@ -1,5 +1,4 @@
-Visit Live Site  
-https://vishalraccha.github.io/portfolio/
+Visit Live Site https://vishalraccha.github.io/portfolio/
 
 #  My Developer Portfolio
 
